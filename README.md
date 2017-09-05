@@ -1,5 +1,7 @@
 # angular-crudbits
-Angular directive for setting bitwise values for common crud type bits.  It allows the developer to easily provide to a view, a block of html that contains 4 checkboxes.  The directive provides an exportable realtime value that is the sum of all the checked bits.  This is very useful when you want to use bitwise math to do things like assign entitlements to users.   The name might be a bit misleading since I dont actually use the CRUD naming convention for my entitlement bits.  I use search, insert, update and remove  (1, 2, 4, 8 ) respectively.  If someone was adamant about using the standard CRUD naming convention - i imagine it would be pretty easy to edit for that preference. 
+Angular directive for setting bitwise values for common crud type bits.  It allows the developer to easily provide to a view, a block of html that contains 4 checkboxes.  The directive provides an exportable realtime value that is the sum of all the checked bits.  This is very useful when you want to use bitwise math to do things like assign entitlements to users.   The name might be a bit misleading since I dont actually use the CRUD naming convention for my entitlement bits.  I use search, insert, update and remove  (1, 2, 4, 8 ) respectively.  If someone was adamant about using the standard CRUD naming convention - i imagine it would be pretty easy to edit for that preference.
+
+![alt text](https://github.com/mvcuccaro/angular-crudbits/blob/master/screenshots/crudbits-screenshot.jpg)
 
 ## Getting Started
 Download src/crudbits.anuglar.directive.js and include it in your angular app with a script element
